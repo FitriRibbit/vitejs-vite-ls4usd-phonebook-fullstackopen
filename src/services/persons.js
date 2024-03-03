@@ -1,6 +1,8 @@
 import axios from 'axios';
 const baseUrl = 'http://localhost:3001/api/persons';
 
+//"server": "json-server -p5174 --watch db.json"
+
 const getAll = () => {
   const request = axios.get(baseUrl);
   return request.then((response) => response.data);
