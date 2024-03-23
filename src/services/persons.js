@@ -1,5 +1,5 @@
 import axios from 'axios';
-const baseUrl = '/api/notes';
+const baseUrl = '/api/persons';
 
 //"server": "json-server -p5174 --watch db.json"
 
